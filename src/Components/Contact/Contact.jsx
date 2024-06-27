@@ -9,8 +9,8 @@ import location_icon from './../../assets/location_icon.svg'
 const Contact = () => {
   return (
     <div className='contact'>
-      <div className="contact-title">
-        <h1>Get In Touch</h1>
+      <div className="contact-title ">
+        <h1 >Get In Touch</h1>
         <img src={theme} alt="" />
       </div>
       <div className="contact-section">
@@ -24,7 +24,7 @@ const Contact = () => {
                 </div>
                 <div className="contact-detail">
                     <img src={phone_icon} alt="" />
-                    <p>09163417945</p>
+                    <p>+234 9163417945</p>
                     </div>
                     <div className="contact-detail">
                     <img src={location_icon} alt="" />
@@ -32,6 +32,18 @@ const Contact = () => {
                     </div>
              </div>
         </div>
+        <form  className='contact-right'>
+
+          <label htmlFor="">Your Name</label>
+          <input type="text" placeholder='Enter Your Name' name='name' />
+          <label htmlFor="">Your Email</label>
+          <input type="email" placeholder='Enter Your Name ' name="email" />
+          <label htmlFor="">Write Your message Here</label>
+          <textarea name="message" rows='8' placeholder='Enter your message' className='contact-textarea'>
+
+          </textarea>
+          <button type='submit' className='contact-submit'>Submit Now</button>
+        </form>
       </div>
     </div>
   )

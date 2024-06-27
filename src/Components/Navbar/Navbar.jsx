@@ -9,7 +9,7 @@ const Navbar = () => {
   return (
     <div className='navbar'>
         <h3 style={{fontFamily:'Concert One',fontSize:25,
-        marginTop:-15,color:'blueviolet',marginRight:30}}>Garland's</h3>
+        marginTop:-15,color:'blueviolet',marginRight:30}}>Garland'sz</h3>
       {/* <img src={logo} alt=""/> */}
       <ul className="nav-menu">
         <li>Home</li>

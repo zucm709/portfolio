@@ -8,7 +8,7 @@ const Hero = () => {
     <div className='hero'>
       <img style={{width:'220px',height:"210px",borderRadius:'100px'}} src={pic} alt/>
       <h2><span>I'm Garland,</span> Frontend Developer Based In Lagos. </h2>
-      <p> As a frontend developer proficient in Python, JavaScript, data structures, and algorithms, with expertise in React Native, I thrive on crafting seamless user experiences across platforms. Whether I'm architecting scalable applications or optimizing code for performance, my versatile skill set empowers me to tackle complex challenges with precision and creativity.</p>
+      <p>Being open to work across diverse domains like React JS, React Native, Python data analysis, and data structures and algorithms not only broadens my skill set but also fuels my passion for continuous learning and growth. Embracing this versatility allows me to tackle complex problems with creativity and efficiency, while also staying adaptable in an ever-evolving technological landscape.</p>
       <div className="hero-action">
         <div className="hero-connect">Connect with me</div>
         <div className="hero-resume">My Resume</div>

@@ -10,11 +10,11 @@
     position:relative;
 
 }
-.services-title h1{
+/* .services-title h1{
     padding: 0px 30px;
     font-size: 60px;
     font-weight: 300;
-}
+} */
 .services-title img{
     position: absolute;
     bottom: 0;

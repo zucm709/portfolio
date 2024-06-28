@@ -22,10 +22,7 @@ const Navbar = () => {
         <li><AnchorLink className='anchor-link' offset={50} href='#contact'><p onClick={() =>setMenu('contact')}>Contact</p></AnchorLink>{menu === 'contact'? <img src={underline}alt='rtom'/>:<></>}</li>
       </ul>
       <div className="nav-connect">
-      <AnchorLink className='anchor-link' offset={50} href='#contact'><p onClick={() =>setMenu('contact')}>Contact</p>
-
-         Connect With Me
-         </AnchorLink>
+      <AnchorLink className='anchor-link' offset={50} href='#contact'><p onClick={() =>setMenu('contact')}>Contact</p></AnchorLink>
       </div>
     </div>
   )

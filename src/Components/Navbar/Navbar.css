@@ -3,6 +3,7 @@
     align-items: center;
     justify-content: space-between;
     margin: 20px 170px;
+    /* cursor: pointer; */
 
 }
 .nav-menu{
@@ -26,4 +27,14 @@
 }
 .nav-connect:hover{
     transform: scale(1.05);
+}
+.nav-menu li{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+}
+.nav-menu li img{
+    display: flex;
+    margin: auto;
 }

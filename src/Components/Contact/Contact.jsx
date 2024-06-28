@@ -8,7 +8,7 @@ import location_icon from './../../assets/location_icon.svg'
 
 const Contact = () => {
   return (
-    <div className='contact'>
+    <div id='contact' className='contact'>
       <div className="contact-title ">
         <h1 >Get In Touch</h1>
         <img src={theme} alt="" />
@@ -43,7 +43,7 @@ const Contact = () => {
 
           </textarea>
           <button type='submit' className='contact-submit'>Submit Now</button>
-        </form>
+        </form> 
       </div>
     </div>
   )

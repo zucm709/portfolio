@@ -79,7 +79,7 @@
     font-weight:20px ;
 }
 .contact-submit{
-    width: 600px;
+    width: 200px;
     background:linear-gradient(270deg,#DF8908,#B415FF 100%) ;
     border-radius: 30px;
     padding: 10px;
@@ -87,5 +87,6 @@
 .contact-textarea{
     width: 600px;
     padding: 7px;
-    color: black;
+    color: white;
+    background: #323232;
 }

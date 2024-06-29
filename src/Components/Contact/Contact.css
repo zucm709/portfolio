@@ -90,3 +90,49 @@
     color: white;
     background: #323232;
 }
+@media(max-width:768px){
+    .contact{
+        gap: 40px;
+        margin: 30px 50px;
+        align-items: start;
+    }
+    .contact-title h1{
+        padding: 0;
+        font-size: 30px;
+        font-weight: 500;
+    }
+     .contact-section{
+        flex-direction: column;
+     }
+     .contact-left h1{
+        font-size: 30px;
+     }
+     .contact-left p{
+        font-size: 15px;
+     }
+     .contact-detail{
+        gap: 15px;
+     }
+     .contact-detail img{
+        width: 25px;
+     }
+     
+     .contact-right label{
+        font-size: 18px;
+        
+     }
+     .contact-right input{
+        width: 100%;
+        font-size: 18px;
+        border-radius: 10px;
+     }
+     .contact-right textarea{
+       border-radius: 10px;
+        font-size: 18px;
+        resize: none;
+     }
+     .contact-submit{
+        font-size: 18px;
+        padding: 10px 30px;
+     }
+}

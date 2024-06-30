@@ -20,8 +20,7 @@ const Navbar = () => {
 
   return (
     <div className='navbar'>
-        <h3 style={{fontFamily:'Concert One',fontSize:25,
-        marginTop:-15,color:'blueviolet',marginRight:30}}>Tom's</h3>
+        <h3 className='logo'>Tom's</h3>
       <img src={menu_open} alt="rtom" className='nav-mob-open' onClick={openMenu}/>
       <ul ref={menuRef} className="nav-menu">
         <img src={menu_close} alt="" className="nav-mob-close" onClick={closeMenu} />
@@ -32,7 +31,7 @@ const Navbar = () => {
         <li><AnchorLink className='anchor-link' offset={50} href='#contact'><p onClick={() =>setMenu('contact')}>Contact</p></AnchorLink>{menu === 'contact'? <img src={underline}alt='rtom'/>:<></>}</li>
       </ul>
       <div className="nav-connect">
-      <AnchorLink className='anchor-link' offset={50} href='#contact'><p onClick={() =>setMenu('contact')}>Contact</p></AnchorLink>
+      <AnchorLink className='anchor-link' offset={50} href='#contact'><p onClick={() =>setMenu('contact')}>Network With Me</p></AnchorLink>
       </div>
     </div>
   )

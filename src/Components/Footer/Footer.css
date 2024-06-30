@@ -78,3 +78,18 @@
         flex-direction: column-reverse;
     }
 }
+
+@media(max-width:650px){
+    .footer{
+        margin: 30px 50px;
+
+    }
+    .footer-top{
+        flex-direction: column;
+        gap: 30px;
+    }
+    .footer-bottom{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}

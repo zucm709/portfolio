@@ -109,3 +109,41 @@
        width:20px;
     }
 }
+
+@media(max-width:576px){
+    .services{
+        align-items: start;
+        gap: 30px;
+        margin: 20px 50px;
+    }
+    .services-title h1{
+        font-size: 20px;
+        padding: 0;
+    }
+    .services-title img{
+        width: 80px;
+        margin-right: -20px;
+
+    }
+    .services-format{
+        gap: 15px;
+        padding: 18px;
+    }
+    .services-format h2{
+      font-size: 15px;
+    }
+    .services-format p{
+        font-size: 10px;
+        line-height: 20px;
+        
+    }
+    .service-container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap:10px;
+        margin-bottom: 80px;
+    }
+    .service-readmore img{
+       width:10px;
+    }
+}

@@ -1,11 +1,24 @@
+
 .navbar{
     display:flex;
     align-items: center;
     justify-content: space-between;
     margin: 20px 170px;
+    font-family: 'Concert One';
     /* cursor: pointer; */
 
 }
+.logo {
+    font-family: 'Concert One';
+    font-size: 25px;
+    margin-top: -15px;
+    margin-right: 30px;
+    background: linear-gradient(90deg, #00ff00 0%, #00b300 50%, #008000 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+  
 .nav-menu{
     display: flex;
     align-items: center;
@@ -13,14 +26,17 @@
     gap: 60px;
     font-size: 17px;
     margin-left: 20px;
+    color:#a0a0a0;
    
 
 }
 .nav-connect{
     padding: 10px 30px;
     border-radius: 50px;
-    background: blueviolet;
-    /* background: linear-gradient(267deg, #DA7C25 0.36% #8923E1 102.06%); */
+    background: linear-gradient(90deg, #00ff00 0%, #00b300 50%, #008000 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
     font-size: 22px;
     cursor: pointer;
     transition: 0.5s;
@@ -33,6 +49,7 @@
     flex-direction: column;
     gap: 5px;
     cursor: pointer;
+    
 }
 .nav-menu li img{
     display: flex;

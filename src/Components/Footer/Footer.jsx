@@ -18,7 +18,7 @@ const Footer = () => {
       </div>
       <hr />
       <div className='footer-bottom'>
-           <p footer-bottom-left>© 2024 Garland's. All right reserved</p>
+           <p footer-bottom-left>© 2024 rtom's. All right reserved</p>
             <div className='footer-bottom-right'>
                <p>Terms Of Services</p>
                <p>Privacy Policy</p>

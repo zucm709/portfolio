@@ -93,3 +93,24 @@
         flex-direction: column-reverse;
     }
 }
+@media(max-width:576px){
+    .footer{
+        margin: 30px 30px;
+
+    }
+    .footer-top{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .footer-bottom{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .footer-subscribe{
+        font-size: 10px;
+    }
+    .footer-email-input{
+        font-size: 12px;
+        width: 270px;
+    }
+}

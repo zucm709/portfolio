@@ -11,7 +11,7 @@ const Footer = () => {
             <div className='footer-top-right'>
                 <div className='footer-email-input'>
                     <img src={user_icon} alt="" />
-                    <input type="text" placeholder='Enter Your emai,' />
+                    <input type="text" placeholder='Enter Your email,' />
                 </div>
                 <div className='footer-subscribe'>Subscribe</div>
             </div>

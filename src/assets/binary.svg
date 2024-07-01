@@ -1,0 +1,41 @@
+<svg width="400" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Title -->
+  <text x="20" y="30" font-family="Arial" font-size="18" fill="black">Binary Search Algorithm</text>
+  
+  <!-- Array elements -->
+  <rect x="20" y="50" width="30" height="30" stroke="black" fill="white" />
+  <text x="30" y="70" font-family="Arial" font-size="16" fill="black">3</text>
+  
+  <rect x="60" y="50" width="30" height="30" stroke="black" fill="white" />
+  <text x="70" y="70" font-family="Arial" font-size="16" fill="black">7</text>
+  
+  <rect x="100" y="50" width="30" height="30" stroke="black" fill="white" />
+  <text x="110" y="70" font-family="Arial" font-size="16" fill="black">12</text>
+  
+  <rect x="140" y="50" width="30" height="30" stroke="black" fill="white" />
+  <text x="150" y="70" font-family="Arial" font-size="16" fill="black">15</text>
+  
+  <rect x="180" y="50" width="30" height="30" stroke="black" fill="white" />
+  <text x="190" y="70" font-family="Arial" font-size="16" fill="black">22</text>
+  
+  <rect x="220" y="50" width="30" height="30" stroke="black" fill="white" />
+  <text x="230" y="70" font-family="Arial" font-size="16" fill="black">27</text>
+  
+  <rect x="260" y="50" width="30" height="30" stroke="black" fill="white" />
+  <text x="270" y="70" font-family="Arial" font-size="16" fill="black">30</text>
+  
+  <!-- Binary search code -->
+  <rect x="20" y="100" width="360" height="90" stroke="black" fill="white" />
+  <text x="30" y="130" font-family="Arial" font-size="14" fill="black">
+    function binarySearch(arr, target) {"\n"}
+    let left = 0, right = arr.length - 1;{"\n"}
+    while (left <= right) {"\n"}
+    let mid = Math.floor((left + right) / 2);{"\n"}
+    if (arr[mid] === target) return mid;{"\n"}
+    else if (arr[mid] < target) left = mid + 1;{"\n"}
+    else right = mid - 1;{"\n"}
+    {"\n"}
+    return -1; // Not found{"\n"}
+    
+  </text>
+</svg>

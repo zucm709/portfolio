@@ -90,6 +90,9 @@
     color: white;
     background: #323232;
   }
+  .sending{
+    margin-left: 120px;
+  }
   
   /* Responsive Styles */
   @media (max-width: 1200px) {

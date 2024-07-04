@@ -89,6 +89,7 @@
     padding: 7px;
     color: white;
     background: #323232;
+    resize: none;
   }
   .sending{
     margin-left: 120px;
